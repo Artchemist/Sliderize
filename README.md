@@ -31,6 +31,7 @@ There are different types of sliding effects and/or transition effects.
       <li>Fade in/out Effect</li>
     </ul>
   </li>
+  <li>Automated sliding with Timer</li>
   <li>Easier and simple functionality and integration out of the box.</li>
 </ul>
 <hr/>

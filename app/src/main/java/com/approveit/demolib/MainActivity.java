@@ -24,14 +24,15 @@ public class MainActivity extends AppCompatActivity {
         RelativeLayout sliderView = (RelativeLayout) findViewById(R.id.sliderView);
 
         List<String> data = new ArrayList<>();
-        data.add("http://lorempixel.com/400/200");
-//        data.add("http://lorempixel.com/400/200");
-//        data.add("http://lorempixel.com/400/200");
-//        data.add("http://lorempixel.com/400/200");
-//        data.add("http://lorempixel.com/400/200");
-//        data.add("http://lorempixel.com/400/200");
+        data.add("http://www.johnboulmetis.com/wp-content/uploads/2016/04/house_1_desert_village__remake__by_johnboul-d6wmht1.jpg");
+        data.add("http://www.johnboulmetis.com/wp-content/uploads/2016/04/LoveBirds_%C2%A9Johnboulmetis.jpg");
+        data.add("http://www.johnboulmetis.com/wp-content/uploads/2016/04/WinterNight_Post.jpg");
+        data.add("http://www.johnboulmetis.com/wp-content/uploads/2016/04/argonath.jpg");
+        data.add("http://www.johnboulmetis.com/wp-content/uploads/2016/04/dwmatio_01.jpg");
+        data.add("http://www.johnboulmetis.com/wp-content/uploads/2016/04/digital_painting__hourse_archer_by_johnboul-d8wftgs.jpg");
 
-        sliderize = new Sliderize(this).with(data).to(sliderView);
+
+        sliderize = new Sliderize(this).with(data).to(sliderView).changeLoadedPageLimit(5);
         sliderize.initiate();
     }
 

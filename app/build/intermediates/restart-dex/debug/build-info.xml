@@ -1,46 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
+    abi="armeabi-v7a,armeabi"
     api-level="22"
-    density="xxhdpi"
+    density="hdpi"
     format="7"
-    timestamp="1063518513157964"
-    token="8630720737763441987" >
+    timestamp="319850557582972"
+    token="-2025393596011001415" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="268" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="29" />
     <task
         name="verifier"
-        duration="0" />
+        duration="6" />
 
-    <build timestamp="1058905138032807" >
+    <artifact
+        location="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+        type="DEX" />
+
+    <build timestamp="319210231388577" >
         <artifact
-            location="F:\AndroidProjects\Artchemist\deno Apps\demoLib\app\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
+            location="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
     </build>
-    <build
-        timestamp="1063495064221666"
-        verifier="R_CLASS_CHANGE" >
+    <build timestamp="319468888388761" >
         <artifact
-            location="F:\AndroidProjects\Artchemist\deno Apps\demoLib\app\build\intermediates\res\resources-debug.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="F:\AndroidProjects\Artchemist\deno Apps\demoLib\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
-            type="DEX" />
-        <artifact
-            location="F:\AndroidProjects\Artchemist\deno Apps\demoLib\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
-        <artifact
-            location="F:\AndroidProjects\Artchemist\deno Apps\demoLib\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            location="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
             type="DEX" />
     </build>
-    <build timestamp="1063518513157964" />
+    <build timestamp="319850557582972" >
+        <artifact
+            location="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+    </build>
 
 </instant-run>

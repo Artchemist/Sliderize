@@ -1,12 +1,2 @@
-CHANGED,F:\AndroidProjects\Artchemist\deno Apps\demoLib\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\approveit\demolib\R$mipmap$override.class
-CHANGED,F:\AndroidProjects\Artchemist\deno Apps\demoLib\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\approveit\demolib\R$id$override.class
-CHANGED,F:\AndroidProjects\Artchemist\deno Apps\demoLib\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\approveit\demolib\R$integer$override.class
-CHANGED,F:\AndroidProjects\Artchemist\deno Apps\demoLib\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\approveit\demolib\R$string$override.class
-CHANGED,F:\AndroidProjects\Artchemist\deno Apps\demoLib\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\artchemylab\sliderize\R$id$override.class
-CHANGED,F:\AndroidProjects\Artchemist\deno Apps\demoLib\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\approveit\demolib\R$layout$override.class
-CHANGED,F:\AndroidProjects\Artchemist\deno Apps\demoLib\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
-CHANGED,F:\AndroidProjects\Artchemist\deno Apps\demoLib\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\approveit\demolib\R$style$override.class
-CHANGED,F:\AndroidProjects\Artchemist\deno Apps\demoLib\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\artchemylab\sliderize\Sliderize$override.class
-CHANGED,F:\AndroidProjects\Artchemist\deno Apps\demoLib\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\approveit\demolib\MainActivity$override.class
-CHANGED,F:\AndroidProjects\Artchemist\deno Apps\demoLib\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\android\support\v7\appcompat\R$id$override.class
-CHANGED,F:\AndroidProjects\Artchemist\deno Apps\demoLib\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\approveit\demolib\R$styleable$override.class
+CHANGED,F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\artchemylab\sliderize\Sliderize$override.class

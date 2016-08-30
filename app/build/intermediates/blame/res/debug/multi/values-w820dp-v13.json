@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\app\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "outputFile": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
+                    "file": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

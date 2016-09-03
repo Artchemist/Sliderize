@@ -4,40 +4,30 @@
     api-level="22"
     density="hdpi"
     format="7"
-    timestamp="291347565071066"
+    timestamp="292929614239188"
     token="-2025393596011001415" >
 
     <task
         name="javac"
-        duration="163" />
+        duration="335" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="36" />
+        duration="508" />
     <task
         name="verifier"
-        duration="3" />
+        duration="215" />
 
     <artifact
-        location="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-        type="DEX" />
+        location="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="289187949840846" >
+    <build timestamp="292929614239188" >
         <artifact
             location="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="289307119892398" >
-        <artifact
-            location="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="291347565071066" >
-        <artifact
-            location="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

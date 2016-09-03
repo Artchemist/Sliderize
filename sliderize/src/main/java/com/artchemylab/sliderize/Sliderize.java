@@ -88,22 +88,40 @@ public class Sliderize {
     int dotMarginBottom = dotMarginTop;
     int dotMarginLeft = dotMarginTop;
 
+    /**
+     * default Constructor
+     * @param ctx Context: get the context when it is called
+     */
     public Sliderize(Context ctx) {
         Log.i(TAG, "new Class");
         this.ctx = ctx;
     }
 
+    /**
+     * Pass to the slider the array of images you want to be displayed
+     * @param data List<String>: (url for images)
+     * @return itself.
+     */
     public Sliderize with(List<String> data) {
         this.data = data;
         this.dotsSize = data.size();
         return this;
     }
 
+    /**
+     * Pass to the slider the view it will use
+     * @param sliderView RelativeLayout
+     * @return itself.
+     */
     public Sliderize to(RelativeLayout sliderView) {
         this.sliderView = sliderView;
         return this;
     }
 
+    /**
+     * After called the required methods for your types and styles call initiate to create the slider
+     * @return returns true if the was no problem with the initiate.
+     */
     public boolean initiate() {
         Log.i(TAG, "initiate");
         int imagesSize = data.size();

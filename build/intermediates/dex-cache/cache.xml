@@ -1,3 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.1.1_99a0f91efb42ff4a9c64ca1d4600e7d5407b08c7\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Artchemist\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\24.1.1\3af19f153122737b372622fa6c81dd11a1c6b999\support-annotations-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.1.1_c8b1ce14f4603e5d0ac0316a1254ae7afd90ab4f\classes.dex" />
+    </item>
+    <item
+        jar="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.1.1_526d94d1e35e538750083b084aea0407baf010e5\classes.dex" />
+    </item>
+    <item
+        jar="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.1.1_e7c6ad3b8ccdc1328f550596fba0896f17ae7603\classes.dex" />
+    </item>
+    <item
+        jar="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.1.1_d6896d64e93835947c80ba28cb27805ee97c6f59\classes.dex" />
+    </item>
+    <item
+        jar="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="7181dfbfcf154c2382beb2bd6ac634c6bfc17ea3">
+        <dex dex="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b2ae0fc014648e11e13856685836d28b289bdd68\classes.dex" />
+    </item>
+    <item
+        jar="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="7338209fb8b5191a7c40f994f24f334a8ec050e9">
+        <dex dex="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5a00869b436e0ff216f2d235093c3e7eaa806df3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Artchemist\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_9bc9a79976e9cd3be0d91c0161e3560ba603523a\classes.dex" />
+    </item>
+    <item
+        jar="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.1.1_c5d84925400c72923244ef75381986c9c608bc1d\classes.dex" />
+    </item>
+
+</items>

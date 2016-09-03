@@ -44,8 +44,9 @@ public class SliderizeAdapter extends PagerAdapter {
         ImageView image = (ImageView) v.findViewById(R.id.image_view_default_slide);
 
         /**
-         * if data contains "first" and "last" means there are placeholders for the repeat loop effect
+         * if data contains "first" and "last" means there are placeholders for the repeat mode loop effect
          * No need for picasso to make a request if that's the case.
+         * for end to end type and infinite type we need picasso to run run for all items inside data
          */
         if (!data.get(position).equals("first") && !data.get(position).equals("last"))
             Picasso.with(ctx).load(data.get(position)).error(android.R.drawable.btn_star).into(image);

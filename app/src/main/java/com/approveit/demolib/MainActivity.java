@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
 
         RelativeLayout sliderView = (RelativeLayout) findViewById(R.id.sliderView);
 
+        /**
+         * Some Placeholder data for the demo
+         */
         List<String> data = new ArrayList<>();
         data.add("http://www.johnboulmetis.com/wp-content/uploads/2016/04/house_1_desert_village__remake__by_johnboul-d6wmht1.jpg");
         data.add("http://www.johnboulmetis.com/wp-content/uploads/2016/04/LoveBirds_%C2%A9Johnboulmetis.jpg");
@@ -29,10 +32,20 @@ public class MainActivity extends AppCompatActivity {
         data.add("http://www.johnboulmetis.com/wp-content/uploads/2016/04/digital_painting__hourse_archer_by_johnboul-d8wftgs.jpg");
 
 
+        /**
+         * You only need these two lines to run the slider effect
+         * new Sliderize(context).with(your array list with images).to(your relative layout);
+         * sliderize.initiate();
+         * and you got the default slider
+         */
         sliderize = new Sliderize(this).with(data).to(sliderView).changeLoadedPageLimit(5).setSlideType(Sliderize.TYPE_INFINITE_SLIDE);
         sliderize.initiate();
     }
 
+    /**
+     * You only need these for the timer (not yet implemented)
+     * onDestroy clears everything out.
+     */
     @Override
     protected void onPause() {
         super.onPause();

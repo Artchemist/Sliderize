@@ -8,14 +8,6 @@
         "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\sliderize\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_slide_in_top.xml"
-    },
-    {
-        "merged": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\sliderize\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
         "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
         "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_popup_exit.xml"
     },
@@ -38,38 +30,6 @@
     {
         "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
         "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_fade_out.xml"
-    },
-    {
-        "merged": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\sliderize\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_enter.xml",
-        "source": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
-        "merged": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\sliderize\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\sliderize\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\sliderize\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\sliderize\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\sliderize\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
-        "source": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_fade_in.xml"
-    },
-    {
-        "merged": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\sliderize\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
-        "source": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
-        "merged": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\sliderize\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
-        "source": "F:\\AndroidProjects\\Artchemist\\deno Apps\\demoLib\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\anim\\abc_fade_out.xml"
     },
     {
         "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",

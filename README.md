@@ -16,7 +16,7 @@ There are different types of sliding effects and/or transition effects.
   <li>Easily integrate in anywhere in your app</li>
 </ul>
 <hr/>
-#Scheduled Upcoming Features
+#Upcoming Features
 <ul>
   <li>Three type of sliding. (So far only one active)
     <ul>

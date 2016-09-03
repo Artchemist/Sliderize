@@ -1,8 +1,6 @@
 package com.artchemylab.sliderize;
 
 import android.content.Context;
-import android.graphics.drawable.Drawable;
-import android.os.Build;
 import android.os.Handler;
 import android.support.v4.view.ViewPager;
 import android.util.Log;
@@ -23,40 +21,72 @@ import java.util.Timer;
  */
 public class Sliderize {
 
-    public static final int RESTART_SLIDE = 1;
-    public static final int END_SLIDE = 2;
-    public static final int INFINITE_SLIDE = 3;
 
-    private int slideType = RESTART_SLIDE;
+    public static final int TYPE_RESTART_SLIDE = 1;
+    public static final int TYPE_END_SLIDE = 2;
+    public static final int TYPE_INFINITE_SLIDE = 3;
 
+    private int slideType = TYPE_RESTART_SLIDE;
+
+    /**
+     * Slider View vars
+     */
     private Context ctx;
     private RelativeLayout sliderView;
-    private LinearLayout dotsView;
+    private LinearLayout dotsLayout;
     private ViewPager viewPager;
     private List<String> data;
 
+    /**
+     * Slider adapter
+     */
     private SliderizeAdapter sliderizeAdapter = null;
 
     private int currentItem = 0;
 
     private int loadedPageLimit = 1;
 
+    /**
+     * Dots display vars
+     */
     private boolean displayDots = true;
     private boolean alwaysDisplayDots = false;
 
+    /**
+     * Timer
+     */
     private boolean enableTimer = true;
-
     private Timer timer = null;
     private Handler hanlder = null;
     private Runnable updater = null;
     private long timerDuration = 5000;
 
+    /**
+     * Tag for Logs
+     */
     private final String TAG = "sliderizeTag";
 
+    /**
+     * Dots List vars
+     */
     private List<View> dots = new ArrayList<>();
     private int dotsSize = 0;
     private int defaultDotDrawable = 0;
     private int activeDotDrawable = 0;
+
+    /**
+     * Dots size vars
+     */
+    int dotWidth = 15;
+    int dotHeight = 15;
+
+    /**
+     * Dots margin vars
+     */
+    int dotMarginTop = 4;
+    int dotMarginRight = dotMarginTop;
+    int dotMarginBottom = dotMarginTop;
+    int dotMarginLeft = dotMarginTop;
 
     public Sliderize(Context ctx) {
         Log.i(TAG, "new Class");
@@ -78,7 +108,7 @@ public class Sliderize {
         Log.i(TAG, "initiate");
         int imagesSize = data.size();
 
-        createSlider ();
+        createSlider();
 
         if (imagesSize == 1) {
             Log.i(TAG, "size == 1");
@@ -86,8 +116,16 @@ public class Sliderize {
             if (!alwaysDisplayDots)
                 displayDots = false;
             enableTimer = false;
-        } else if (imagesSize > 1 && slideType == RESTART_SLIDE) {
-            Log.i(TAG, "size > 1");
+        } else if (imagesSize > 1 && slideType == TYPE_RESTART_SLIDE) {
+            Log.i(TAG, "size > 1 and Type = Restart Slide");
+            currentItem = 1;
+            enableTimer = true;
+        } else if (imagesSize > 1 && slideType == TYPE_END_SLIDE) {
+            Log.i(TAG, "size > 1 and Type = End Slide");
+            currentItem = 0;
+            enableTimer = true;
+        } else if (imagesSize > 1 && slideType == TYPE_INFINITE_SLIDE) {
+            Log.i(TAG, "size > 1 and Type = Infinite Slide");
             currentItem = 1;
             enableTimer = true;
         }
@@ -95,17 +133,17 @@ public class Sliderize {
         if (ctx != null && viewPager != null) {
 
             switch (slideType) {
-                case RESTART_SLIDE:
+                case TYPE_RESTART_SLIDE:
                     Log.i(TAG, "Type = Restart");
                     enableRestartMode();
                     break;
-                case END_SLIDE:
+                case TYPE_END_SLIDE:
                     Log.i(TAG, "Type = END to END");
-
+                    enableEndMode();
                     break;
-                case INFINITE_SLIDE:
+                case TYPE_INFINITE_SLIDE:
                     Log.i(TAG, "Type = Infinite");
-
+                    enableInfiniteMode();
                     break;
                 default:
                     Log.i(TAG, "Type = Default");
@@ -115,9 +153,9 @@ public class Sliderize {
 
             if (defaultDotDrawable == 0 || activeDotDrawable == 0) {
                 defaultDotDrawable = R.drawable.inactive_icon;
-                activeDotDrawable  = R.drawable.active_icon;
+                activeDotDrawable = R.drawable.active_icon;
             }
-            addDots ();
+            addDots();
 
             return true;
         }
@@ -135,17 +173,14 @@ public class Sliderize {
 
     private void addDots() {
         if (displayDots) {
-            LinearLayout dotsLayout = new LinearLayout(ctx);
-            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(15, 15);
-            params.setMargins(4, 4, 4, 4);
+            dotsLayout = new LinearLayout(ctx);
+            LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(dotWidth, dotHeight);
+            params.setMargins(dotMarginLeft, dotMarginTop, dotMarginRight, dotMarginBottom);
 
             for (int x = 0; x < dotsSize; x++) {
                 View dot = new View(ctx);
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-                    dot.setBackground(ctx.getResources().getDrawable(defaultDotDrawable));
-                } else {
-                    dot.setBackgroundDrawable(ctx.getResources().getDrawable(defaultDotDrawable));
-                }
+                dot.setBackgroundDrawable(ctx.getResources().getDrawable(defaultDotDrawable));
+
 
                 dotsLayout.addView(dot, params);
                 dots.add(dot);
@@ -162,6 +197,138 @@ public class Sliderize {
             dotsParams.addRule(RelativeLayout.CENTER_IN_PARENT);
             sliderView.addView(dotsLayout, dotsParams);
 
+        }
+    }
+
+    /**
+     * Enable Infinite Mode
+     * Going from last to first but give the illusion it is infinite animated.
+     */
+    private void enableInfiniteMode() {
+        final int imagesSize = data.size();
+
+        if (imagesSize == 1) {
+            Log.i(TAG, "enableMode: size == 1");
+            if (sliderizeAdapter == null)
+                sliderizeAdapter = new SliderizeAdapter(ctx, data);
+
+            viewPager.setAdapter(sliderizeAdapter);
+            viewPager.setCurrentItem(currentItem);
+
+        } else if (imagesSize > 1) {
+            if (slideType == TYPE_INFINITE_SLIDE) {
+                data.add(0, data.get(imagesSize - 1));
+                data.add(imagesSize + 1, data.get(1));
+            }
+
+            Log.i(TAG, "enableMode: size > 1 and slideType == TYPE_INFINITE_SLIDE");
+            if (sliderizeAdapter == null)
+                sliderizeAdapter = new SliderizeAdapter(ctx, data);
+
+            viewPager.setAdapter(sliderizeAdapter);
+            viewPager.setCurrentItem(currentItem);
+            viewPager.setOverScrollMode(ViewPager.OVER_SCROLL_NEVER);
+
+            enableInfiniteType();
+        }
+    }
+
+    /**
+     * Enable how pages are repeated based on Infinite Mode
+     */
+    private void enableInfiniteType() {
+        if (viewPager != null) {
+            viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+                @Override
+                public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+                    if (positionOffset > 0.99 || positionOffset < 0.001) {
+                        if (viewPager.getCurrentItem() == 0 || viewPager.getCurrentItem() == data.size() -1)
+                            viewPager.setCurrentItem(currentItem, false);
+                    }
+                }
+
+                @Override
+                public void onPageSelected(int position) {
+
+                    if (position == 0) {
+                        currentItem = data.size() - 2;
+                    } else if (position == data.size() - 1) {
+                        currentItem = 1;
+                    } else {
+                        currentItem = position;
+                    }
+
+                    if (displayDots) {
+
+                        for (int i = 0; i < data.size() - 2; i++) {
+                            dots.get(i).setBackgroundDrawable(ctx.getResources().getDrawable(defaultDotDrawable));
+                        }
+
+                        if (data.size() - 2 >= 1) {
+                            if (currentItem - 1 < 0) {
+                                dots.get(currentItem).setBackgroundDrawable(ctx.getResources().getDrawable(activeDotDrawable));
+                            } else {
+                                dots.get(currentItem - 1).setBackgroundDrawable(ctx.getResources().getDrawable(activeDotDrawable));
+                            }
+                        }
+                    }
+                }
+
+                @Override
+                public void onPageScrollStateChanged(int state) {
+
+                    //if (state == ViewPager.SCROLL_STATE_IDLE) {
+                        //if (viewPager.getCurrentItem() == 0 || viewPager.getCurrentItem() == data.size() -1)
+                            //viewPager.setCurrentItem(currentItem, false);
+                    //} // /scroll state idle
+                }
+            });
+        }
+    }
+
+    /**
+     * Enable End to End Mode
+     * Default functionality of viewpager
+     */
+    private void enableEndMode() {
+
+        Log.i(TAG, "enableMode: end to end");
+        if (sliderizeAdapter == null)
+            sliderizeAdapter = new SliderizeAdapter(ctx, data);
+
+        viewPager.setAdapter(sliderizeAdapter);
+        viewPager.setCurrentItem(currentItem);
+
+        enableEndType();
+
+    }
+
+    private void enableEndType() {
+        if (viewPager != null) {
+            viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+                @Override
+                public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+                }
+
+                @Override
+                public void onPageSelected(int position) {
+                    currentItem = position;
+                    if (displayDots) {
+                        for (int i = 0; i < data.size(); i++) {
+                            dots.get(i).setBackgroundDrawable(ctx.getResources().getDrawable(defaultDotDrawable));
+                        }
+                        if (data.size() >= 1) {
+                            dots.get(currentItem).setBackgroundDrawable(ctx.getResources().getDrawable(activeDotDrawable));
+                        }
+                    }
+                }
+
+                @Override
+                public void onPageScrollStateChanged(int state) {
+
+                }
+            });
         }
     }
 
@@ -212,12 +379,12 @@ public class Sliderize {
 //            }
 
         } else if (imagesSize > 1) {
-            if (slideType == RESTART_SLIDE) {
+            if (slideType == TYPE_RESTART_SLIDE) {
                 data.add(0, "first");
-                data.add(imagesSize+1, "last");
+                data.add(imagesSize + 1, "last");
             }
 
-            Log.i(TAG, "enableMode: size > 1 and slideType == RESTART_SLIDE");
+            Log.i(TAG, "enableMode: size > 1 and slideType == TYPE_RESTART_SLIDE");
             if (sliderizeAdapter == null)
                 sliderizeAdapter = new SliderizeAdapter(ctx, data);
 
@@ -230,7 +397,7 @@ public class Sliderize {
     }
 
     /**
-     * Enable the how pages are repeated based on Restart Mode
+     * Enable how pages are repeated based on Restart Mode
      */
     private void enableRestartType() {
         if (viewPager != null) {
@@ -267,7 +434,6 @@ public class Sliderize {
                             }
                         }
                     }
-
                 }
 
                 @Override
@@ -280,29 +446,91 @@ public class Sliderize {
 
     /**
      * Change the limit of how many pages are loaded at once.
+     *
      * @param limit int: default is 1. bigger the number, more resources you'll need.
      * @return itself.
      */
-    public Sliderize changeLoadedPageLimit (int limit) {
+    public Sliderize changeLoadedPageLimit(int limit) {
         loadedPageLimit = limit;
         return this;
     }
 
     /**
+     * Change the width and height of each dot.
+     *
+     * @param dotWidth  int: default: 15
+     * @param dotHeight int: default: 15
+     * @return itself.
+     */
+    public Sliderize setDotSize(int dotWidth, int dotHeight) {
+        this.dotWidth = dotWidth;
+        this.dotHeight = dotHeight;
+        return this;
+    }
+
+    /**
+     * Change the margin for all sides of each dot (top, right, bottom, left)
+     *
+     * @param dotAround int: default 4
+     * @return itself.
+     */
+    public Sliderize setDotMargins(int dotAround) {
+        this.dotMarginTop = dotAround;
+        this.dotMarginBottom = dotAround;
+        this.dotMarginLeft = dotAround;
+        this.dotMarginRight = dotAround;
+        return this;
+    }
+
+    /**
+     * Change the margin for horizontal and vertical sides of each dot (top, right, bottom, left)
+     *
+     * @param dotTopBottom int: default: 4
+     * @param dotLeftRight int: default: 4
+     * @return
+     */
+    public Sliderize setDotMargins(int dotTopBottom, int dotLeftRight) {
+        this.dotMarginTop = dotTopBottom;
+        this.dotMarginBottom = dotTopBottom;
+        this.dotMarginLeft = dotLeftRight;
+        this.dotMarginRight = dotLeftRight;
+        return this;
+    }
+
+    /**
+     * Change the margin of each dot (top, right, bottom, left)
+     *
+     * @param dotMarginTop    int: default: 4
+     * @param dotMarginRight  int: default: 4
+     * @param dotMarginBottom int: default: 4
+     * @param dotMarginLeft   int: default: 4
+     * @return itself.
+     */
+    public Sliderize setDotMargins(int dotMarginTop, int dotMarginRight, int dotMarginBottom, int dotMarginLeft) {
+        this.dotMarginTop = dotMarginTop;
+        this.dotMarginRight = dotMarginRight;
+        this.dotMarginBottom = dotMarginBottom;
+        this.dotMarginLeft = dotMarginLeft;
+        return this;
+    }
+
+    /**
      * Set the drawables for the dots
+     *
      * @param defaultIcon id of the default icon
-     * @param activeIcon id of the active icon
+     * @param activeIcon  id of the active icon
      * @return itself
      */
-    public Sliderize setDotsDrawables (int defaultIcon, int activeIcon) {
+    public Sliderize setDotsDrawables(int defaultIcon, int activeIcon) {
         this.defaultDotDrawable = defaultIcon;
-        this.activeDotDrawable  = activeIcon;
+        this.activeDotDrawable = activeIcon;
         return this;
     }
 
     /**
      * Set the type of slider
-     * @param type int: one of predefined static vars in Sliderize class. default: Sliderize.RESTART_SLIDE
+     *
+     * @param type int: one of predefined static vars in Sliderize class. default: Sliderize.TYPE_RESTART_SLIDE
      * @return returns itself.
      */
     public Sliderize setSlideType(int type) {
@@ -312,6 +540,7 @@ public class Sliderize {
 
     /**
      * Set the duration of the timer for the auto play
+     *
      * @param milliseconds long: in milliseconds. default: 5000
      * @return returns itself.
      */
@@ -322,6 +551,7 @@ public class Sliderize {
 
     /**
      * Enable dot indicator only if more than one images exist in data
+     *
      * @param displayDots boolean: enable dots. default: false
      * @return returns itself.
      */
@@ -332,7 +562,8 @@ public class Sliderize {
 
     /**
      * Enable dot indicator to always display even if just one image exists in data
-     * @param displayDots boolean: enable dots. default: false
+     *
+     * @param displayDots       boolean: enable dots. default: false
      * @param alwaysDisplayDots boolean: always show dots even if only one dot exists. default: false
      * @return returns itself.
      */
@@ -348,6 +579,12 @@ public class Sliderize {
      */
     public void onDestroy() {
         clearTimer();
+        dotsLayout = null;
+        sliderView = null;
+        sliderizeAdapter = null;
+        data.clear();
+        data = null;
+        viewPager = null;
     }
 
     /**

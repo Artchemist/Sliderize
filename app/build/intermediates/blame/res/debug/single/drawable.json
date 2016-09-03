@@ -16,12 +16,12 @@
         "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
         "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
         "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
@@ -50,6 +50,10 @@
     {
         "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
         "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\inactive2_icon.png",
+        "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\src\\main\\res\\drawable\\inactive2_icon.png"
     },
     {
         "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
@@ -110,6 +114,10 @@
     {
         "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
         "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\active2_icon.png",
+        "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\src\\main\\res\\drawable\\active2_icon.png"
     },
     {
         "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",

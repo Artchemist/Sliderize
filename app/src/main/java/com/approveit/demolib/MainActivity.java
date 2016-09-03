@@ -1,13 +1,10 @@
 package com.approveit.demolib;
 
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.RelativeLayout;
 
 import com.artchemylab.sliderize.Sliderize;
-import com.artchemylab.sliderize.SliderizeAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -32,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         data.add("http://www.johnboulmetis.com/wp-content/uploads/2016/04/digital_painting__hourse_archer_by_johnboul-d8wftgs.jpg");
 
 
-        sliderize = new Sliderize(this).with(data).to(sliderView).changeLoadedPageLimit(5);
+        sliderize = new Sliderize(this).with(data).to(sliderView).changeLoadedPageLimit(5).setSlideType(Sliderize.TYPE_INFINITE_SLIDE);
         sliderize.initiate();
     }
 

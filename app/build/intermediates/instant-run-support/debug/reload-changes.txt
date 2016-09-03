@@ -1,2 +1,2 @@
 CHANGED,F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
-CHANGED,F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\artchemylab\sliderize\Sliderize$override.class
+CHANGED,F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\artchemylab\sliderize\Sliderize$1$override.class

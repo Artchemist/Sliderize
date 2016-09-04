@@ -27,10 +27,11 @@ There are different types of sliding effects and/or transition effects.
   </li>
   <li>Two Transition Styles
     <ul>
-      <li>Default Sliding Effect <i>(Active)</i></li>
-      <li>Fade in/out Effect</li>
+      <li>Default Sliding Effect <i>(Added)</i></li>
+      <li>Fade in/out Effect <i>(Added)</i></li>
     </ul>
   </li>
+  <li>Change transition time between slides <i>(Added)</i></li>
   <li>Automated sliding with Timer</li>
   <li>Easier and simple functionality and integration out of the box.</li>
 </ul>

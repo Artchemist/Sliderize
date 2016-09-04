@@ -1,6 +1,7 @@
 package com.artchemylab.sliderize;
 
 import android.content.Context;
+import android.os.Build;
 import android.os.Handler;
 import android.support.v4.view.ViewPager;
 import android.util.Log;
@@ -34,8 +35,9 @@ public class Sliderize {
     private Context ctx;
     private RelativeLayout sliderView;
     private LinearLayout dotsLayout;
-    private ViewPager viewPager;
+    private SliderizeViewPager viewPager;
     private List<String> data;
+    private int slideDuration = 500;
 
     /**
      * Slider adapter
@@ -77,16 +79,24 @@ public class Sliderize {
     /**
      * Dots size vars
      */
-    int dotWidth = 15;
-    int dotHeight = 15;
+    private int dotWidth = 15;
+    private int dotHeight = 15;
 
     /**
      * Dots margin vars
      */
-    int dotMarginTop = 4;
-    int dotMarginRight = dotMarginTop;
-    int dotMarginBottom = dotMarginTop;
-    int dotMarginLeft = dotMarginTop;
+    private int dotMarginTop = 4;
+    private int dotMarginRight = dotMarginTop;
+    private int dotMarginBottom = dotMarginTop;
+    private int dotMarginLeft = dotMarginTop;
+
+    /**
+     * Slider effect vars
+     */
+    public static final int EFFECT_DEFAULT_SLIDE = 1;
+    public static final int EFFECT_FADE_SLIDE = 2;
+
+    private int effectStyle = EFFECT_FADE_SLIDE;
 
     /**
      * default Constructor
@@ -175,16 +185,50 @@ public class Sliderize {
             }
             addDots();
 
+            if (effectStyle == EFFECT_FADE_SLIDE) {
+                enableFadeEffect();
+            }
+
+            viewPager.setScrollDuration(slideDuration);
+
             return true;
         }
         return false;
+    }
+
+    private void enableFadeEffect(){
+        if (viewPager != null) {
+            viewPager.setPageTransformer(false, new ViewPager.PageTransformer() {
+                @Override
+                public void transformPage(View page, float position) {
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+                        if (position <= -1.0F || position >= 1.0F) {
+                            page.setTranslationX(page.getWidth() * position);
+                            page.setAlpha(0.0F);
+                        } else if (position == 0.0F) {
+                            page.setTranslationX(page.getWidth() * position);
+                            page.setAlpha(1.0F);
+                        } else {
+                            // position is between -1.0F & 0.0F OR 0.0F & 1.0F
+                            page.setTranslationX(page.getWidth() * -position);
+                            page.setAlpha(1.0F - Math.abs(position));
+                        }
+                    }
+                }
+            });
+        }
+    }
+
+    public Sliderize changeTransitionTime (int duration) {
+        this.slideDuration = duration;
+        return this;
     }
 
     /**
      * create viewpager and add it inside the sliderView
      */
     private void createSlider() {
-        viewPager = new ViewPager(ctx);
+        viewPager = new SliderizeViewPager(ctx);
         sliderView.addView(viewPager);
         viewPager.setOffscreenPageLimit(loadedPageLimit);
     }
@@ -460,6 +504,16 @@ public class Sliderize {
                 }
             });
         }
+    }
+
+    /**
+     * Change the default transition of how slides slide.
+     * @param effectStyle int: default Sliderize.EFFECT_FADE_SLIDE
+     * @return itself.
+     */
+    public Sliderize changeEffectSlide (int effectStyle) {
+        this.effectStyle = effectStyle;
+        return this;
     }
 
     /**

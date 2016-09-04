@@ -68,11 +68,11 @@
         "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\res\\merged\\release\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\color\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
         "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\res\\merged\\release\\color\\abc_background_cache_hint_selector_material_light.xml",
         "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\color\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\res\\merged\\release\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     }
 ]

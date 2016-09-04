@@ -10,668 +10,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d87ca04-0be0-47ac-9736-a79a97adbf00" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/bundles/debug/instant-run/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/approveit/demolib/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/approveit/demolib/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/approveit/demolib/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/approveit/demolib/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/approveit/demolib/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/approveit/demolib/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/approveit/demolib/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/approveit/demolib/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/approveit/demolib/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/approveit/demolib/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/approveit/demolib/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/approveit/demolib/R$mipmap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/approveit/demolib/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/approveit/demolib/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/approveit/demolib/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/approveit/demolib/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/artchemylab/sliderize/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/artchemylab/sliderize/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/artchemylab/sliderize/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/artchemylab/sliderize/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/artchemylab/sliderize/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/artchemylab/sliderize/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/artchemylab/sliderize/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/artchemylab/sliderize/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/artchemylab/sliderize/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/artchemylab/sliderize/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/artchemylab/sliderize/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/artchemylab/sliderize/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/artchemylab/sliderize/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-safeguard/debug/tag.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/approveit/demolib/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/approveit/demolib/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/approveit/demolib/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/approveit/demolib/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/approveit/demolib/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/approveit/demolib/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/approveit/demolib/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/approveit/demolib/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/approveit/demolib/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/approveit/demolib/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/approveit/demolib/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/approveit/demolib/R$mipmap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/approveit/demolib/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/approveit/demolib/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/approveit/demolib/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/approveit/demolib/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/Sliderize$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/Sliderize$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/Sliderize$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/Sliderize.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/SliderizeAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/classes.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/coldswap.marker" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package.marker" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/reload-changes.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/resources.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.1.1_99a0f91efb42ff4a9c64ca1d4600e7d5407b08c7/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.1.1_e7c6ad3b8ccdc1328f550596fba0896f17ae7603/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.1_526d94d1e35e538750083b084aea0407baf010e5/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.1_d6896d64e93835947c80ba28cb27805ee97c6f59/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b2ae0fc014648e11e13856685836d28b289bdd68/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5a00869b436e0ff216f2d235093c3e7eaa806df3/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.1_c5d84925400c72923244ef75381986c9c608bc1d/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_9bc9a79976e9cd3be0d91c0161e3560ba603523a/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.1_c8b1ce14f4603e5d0ac0316a1254ae7afd90ab4f/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--2100165158/com/artchemylab/sliderize/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--2100165158/com/artchemylab/sliderize/Sliderize$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--2100165158/com/artchemylab/sliderize/Sliderize$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--2100165158/com/artchemylab/sliderize/Sliderize$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--2100165158/com/artchemylab/sliderize/Sliderize.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--2100165158/com/artchemylab/sliderize/SliderizeAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/approveit/demolib/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/approveit/demolib/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/approveit/demolib/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/approveit/demolib/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/approveit/demolib/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/approveit/demolib/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/approveit/demolib/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/approveit/demolib/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/approveit/demolib/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/approveit/demolib/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/approveit/demolib/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/approveit/demolib/R$mipmap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/approveit/demolib/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/approveit/demolib/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/approveit/demolib/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/approveit/demolib/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/Sliderize$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/Sliderize$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/Sliderize$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/Sliderize.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/SliderizeAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/approveit/demolib/MainActivity$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/artchemylab/sliderize/Sliderize$1$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/artchemylab/sliderize/Sliderize$2$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/artchemylab/sliderize/Sliderize$3$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/artchemylab/sliderize/Sliderize$override.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/buildId.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/android/tools/fd/dummy/slice_0.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/Sliderize$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/Sliderize$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/Sliderize$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/Sliderize.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/SliderizeAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/android/tools/fd/dummy/slice_1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/android/support/v7/appcompat/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/android/tools/fd/dummy/slice_2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/android/tools/fd/dummy/slice_3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/com/android/tools/fd/dummy/slice_4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/buildId.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/android/tools/fd/dummy/slice_5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/approveit/demolib/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/approveit/demolib/MainActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/approveit/demolib/R$anim.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/approveit/demolib/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/approveit/demolib/R$bool.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/approveit/demolib/R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/approveit/demolib/R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/approveit/demolib/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/approveit/demolib/R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/approveit/demolib/R$integer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/approveit/demolib/R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/approveit/demolib/R$mipmap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/approveit/demolib/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/approveit/demolib/R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/approveit/demolib/R$styleable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/com/approveit/demolib/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/android/tools/fd/dummy/slice_6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/android/tools/fd/dummy/slice_7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/android/tools/fd/dummy/slice_8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/android/tools/fd/dummy/slice_9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_6wo5rw0qkvrckotht8shfoya2/com/artchemylab/sliderize/BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_6wo5rw0qkvrckotht8shfoya2/com/artchemylab/sliderize/Sliderize$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_6wo5rw0qkvrckotht8shfoya2/com/artchemylab/sliderize/Sliderize$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_6wo5rw0qkvrckotht8shfoya2/com/artchemylab/sliderize/Sliderize$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_6wo5rw0qkvrckotht8shfoya2/com/artchemylab/sliderize/Sliderize.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_6wo5rw0qkvrckotht8shfoya2/com/artchemylab/sliderize/SliderizeAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_sliderize_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_sliderize_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_sliderize_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_sliderize_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_sliderize_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_sliderize_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_sliderize_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_sliderize_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_sliderize_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_sliderize_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.10/tasks/_sliderize_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.10/tasks/_sliderize_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/Sliderize-Sample/sliderize/unspecified/jars/classes.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/Sliderize-Sample/sliderize/unspecified/jars/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/Sliderize$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/Sliderize$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/Sliderize$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/Sliderize$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/Sliderize$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/Sliderize$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/Sliderize.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/artchemylab/sliderize/Sliderize.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/classes.zip" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/classes.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/resources.zip" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/resources.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--2100165158/com/artchemylab/sliderize/Sliderize$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--2100165158/com/artchemylab/sliderize/Sliderize$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--2100165158/com/artchemylab/sliderize/Sliderize$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--2100165158/com/artchemylab/sliderize/Sliderize$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--2100165158/com/artchemylab/sliderize/Sliderize$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--2100165158/com/artchemylab/sliderize/Sliderize$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--2100165158/com/artchemylab/sliderize/Sliderize.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/extractJars/debug/folders/1/4/classes.jar--2100165158/com/artchemylab/sliderize/Sliderize.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/Sliderize$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/Sliderize$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/Sliderize$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/Sliderize$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/Sliderize$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/Sliderize$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/Sliderize.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/artchemylab/sliderize/Sliderize.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/Sliderize$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/Sliderize$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/Sliderize$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/Sliderize$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/Sliderize$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/Sliderize$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/Sliderize.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/com/artchemylab/sliderize/Sliderize.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_6wo5rw0qkvrckotht8shfoya2/com/artchemylab/sliderize/Sliderize$1.class" afterPath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_6wo5rw0qkvrckotht8shfoya2/com/artchemylab/sliderize/Sliderize$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_6wo5rw0qkvrckotht8shfoya2/com/artchemylab/sliderize/Sliderize$2.class" afterPath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_6wo5rw0qkvrckotht8shfoya2/com/artchemylab/sliderize/Sliderize$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_6wo5rw0qkvrckotht8shfoya2/com/artchemylab/sliderize/Sliderize$3.class" afterPath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_6wo5rw0qkvrckotht8shfoya2/com/artchemylab/sliderize/Sliderize$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_6wo5rw0qkvrckotht8shfoya2/com/artchemylab/sliderize/Sliderize.class" afterPath="$PROJECT_DIR$/app/build/tmp/expandedArchives/classes.jar_6wo5rw0qkvrckotht8shfoya2/com/artchemylab/sliderize/Sliderize.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/mockable-android-24.jar" afterPath="$PROJECT_DIR$/build/generated/mockable-android-24.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/bundles/debug/classes.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/bundles/release/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/R$drawable.class" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/R$id.class" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/R$integer.class" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/R$layout.class" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/R$string.class" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/R$style.class" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/R$styleable.class" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/Sliderize$1.class" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/Sliderize$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/Sliderize$2.class" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/Sliderize$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/Sliderize$3.class" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/Sliderize$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/Sliderize.class" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/Sliderize.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/SliderizeAdapter.class" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/classes/debug/com/artchemylab/sliderize/SliderizeAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/classes/release/com/artchemylab/sliderize/SliderizeAdapter.class" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/classes/release/com/artchemylab/sliderize/SliderizeAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/classes/release/com/artchemylab/sliderize/Sliderize$1.class" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/classes/release/com/artchemylab/sliderize/Sliderize$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/classes/release/com/artchemylab/sliderize/Sliderize$2.class" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/classes/release/com/artchemylab/sliderize/Sliderize$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/classes/release/com/artchemylab/sliderize/Sliderize$3.class" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/classes/release/com/artchemylab/sliderize/Sliderize$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/classes/release/com/artchemylab/sliderize/Sliderize.class" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/classes/release/com/artchemylab/sliderize/Sliderize.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/outputs/aar/sliderize-debug.aar" afterPath="$PROJECT_DIR$/sliderize/build/outputs/aar/sliderize-debug.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/outputs/aar/sliderize-release.aar" afterPath="$PROJECT_DIR$/sliderize/build/outputs/aar/sliderize-release.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/artchemylab/sliderize/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/artchemylab/sliderize/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/color.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-v21.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/approveit/demolib/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/approveit/demolib/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/generated/source/r/androidTest/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/sliderize/build/generated/source/r/androidTest/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/generated/source/r/androidTest/debug/com/artchemylab/sliderize/R.java" afterPath="$PROJECT_DIR$/sliderize/build/generated/source/r/androidTest/debug/com/artchemylab/sliderize/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/generated/source/r/androidTest/debug/com/artchemylab/sliderize/test/R.java" afterPath="$PROJECT_DIR$/sliderize/build/generated/source/r/androidTest/debug/com/artchemylab/sliderize/test/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/sliderize/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/generated/source/r/debug/com/artchemylab/sliderize/R.java" afterPath="$PROJECT_DIR$/sliderize/build/generated/source/r/debug/com/artchemylab/sliderize/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-af.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-af.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-am.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-am.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ar.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ar.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-az-rAZ.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-az-rAZ.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-b+sr+Latn.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-b+sr+Latn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-be-rBY.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-be-rBY.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-bg.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-bg.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-bn-rBD.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-bn-rBD.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-bs-rBA.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-bs-rBA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ca.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ca.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-cs.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-cs.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-da.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-da.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-de.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-de.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-el.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-el.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-en-rAU.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-en-rAU.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-en-rGB.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-en-rGB.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-en-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-en-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-es-rUS.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-es-rUS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-es.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-es.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-et-rEE.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-et-rEE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-eu-rES.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-eu-rES.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-fa.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-fa.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-fi.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-fi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-fr-rCA.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-fr-rCA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-fr.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-fr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-gl-rES.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-gl-rES.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-gu-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-gu-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-h720dp-v13.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-h720dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-hdpi-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-hi.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-hi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-hr.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-hr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-hu.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-hu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-hy-rAM.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-hy-rAM.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-in.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-in.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-is-rIS.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-is-rIS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-it.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-it.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-iw.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-iw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ja.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ja.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ka-rGE.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ka-rGE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-kk-rKZ.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-kk-rKZ.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-km-rKH.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-km-rKH.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-kn-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-kn-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ko.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ko.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ky-rKG.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ky-rKG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-land.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-land.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-large-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-large-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ldltr-v21.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ldltr-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-lo-rLA.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-lo-rLA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-lt.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-lt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-lv.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-lv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-mk-rMK.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-mk-rMK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ml-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ml-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-mn-rMN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-mn-rMN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-mr-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-mr-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ms-rMY.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ms-rMY.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-my-rMM.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-my-rMM.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-nb.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-nb.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ne-rNP.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ne-rNP.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-night-v8.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-night-v8.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-nl.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-nl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-pa-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-pa-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-pl.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-pl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-port.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-port.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-pt-rBR.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-pt-rBR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-pt-rPT.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-pt-rPT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-pt.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-pt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ro.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ro.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ru.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ru.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-si-rLK.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-si-rLK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-sk.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-sk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-sl.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-sl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-sq-rAL.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-sq-rAL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-sr.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-sr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-sv.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-sv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-sw.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-sw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-sw600dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ta-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ta-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-te-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-te-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-th.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-th.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-tl.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-tl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-tr.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-tr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-uk.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-uk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ur-rPK.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-ur-rPK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-uz-rUZ.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-uz-rUZ.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-v12.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-v12.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-v13.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-v14.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-v14.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-v17.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-v18.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-v18.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-v21.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-v22.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-v22.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-v23.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-vi.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-vi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-xlarge-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-xlarge-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-zh-rCN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-zh-rCN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-zh-rHK.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-zh-rHK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-zh-rTW.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-zh-rTW.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-zu.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values-zu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/anim.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/anim.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/color-v11.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/color-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/color-v23.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/color-v23.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/reload-changes.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/reload-changes.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/color.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/color.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-ldrtl-hdpi-v17.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-ldrtl-hdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-ldrtl-mdpi-v17.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-ldrtl-mdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-ldrtl-xhdpi-v17.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-ldrtl-xhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-ldrtl-xxhdpi-v17.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-ldrtl-xxhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-ldrtl-xxxhdpi-v17.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-ldrtl-xxxhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-v21.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-v23.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable-xxxhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/drawable.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/layout.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/androidTest/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-af.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-af.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-am.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-am.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ar.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ar.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-az-rAZ.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-az-rAZ.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-b+sr+Latn.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-b+sr+Latn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-be-rBY.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-be-rBY.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-bg.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-bg.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-bn-rBD.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-bn-rBD.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-bs-rBA.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-bs-rBA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ca.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ca.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-cs.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-cs.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-da.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-da.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-de.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-de.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-el.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-el.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-en-rAU.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-en-rAU.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-en-rGB.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-en-rGB.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-en-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-en-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-es-rUS.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-es-rUS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-es.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-es.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-et-rEE.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-et-rEE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-eu-rES.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-eu-rES.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-fa.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-fa.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-fi.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-fi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-fr-rCA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-fr.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-fr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-gl-rES.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-gl-rES.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-gu-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-gu-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-h720dp-v13.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-h720dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-hdpi-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-hi.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-hi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-hr.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-hr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-hu.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-hu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-hy-rAM.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-hy-rAM.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-in.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-in.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-is-rIS.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-is-rIS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-it.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-it.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-iw.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-iw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ja.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ja.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ka-rGE.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ka-rGE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-kk-rKZ.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-kk-rKZ.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-km-rKH.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-km-rKH.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-kn-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-kn-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ko.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ko.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ky-rKG.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ky-rKG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-land.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-land.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-large-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-large-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ldltr-v21.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ldltr-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-lo-rLA.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-lo-rLA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-lt.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-lt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-lv.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-lv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-mk-rMK.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-mk-rMK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ml-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ml-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-mn-rMN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-mn-rMN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-mr-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-mr-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ms-rMY.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ms-rMY.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-my-rMM.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-my-rMM.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-nb.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-nb.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ne-rNP.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ne-rNP.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-night-v8.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-night-v8.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-nl.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-nl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-pa-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-pa-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-pl.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-pl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-port.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-port.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-pt-rBR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-pt-rPT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-pt.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-pt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ro.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ro.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ru.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ru.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-si-rLK.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-si-rLK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-sk.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-sk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-sl.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-sl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-sq-rAL.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-sq-rAL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-sr.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-sr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-sv.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-sv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-sw.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-sw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-sw600dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ta-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ta-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-te-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-te-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-th.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-th.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-tl.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-tl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-tr.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-tr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-uk.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-uk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ur-rPK.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-ur-rPK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-uz-rUZ.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-uz-rUZ.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-v11.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-v12.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-v12.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-v13.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-v14.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-v14.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-v17.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-v18.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-v18.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-v21.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-v22.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-v22.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-v23.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-vi.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-vi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-xlarge-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-zh-rCN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-zh-rHK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-zh-rTW.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-zu.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values-zu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/anim.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/anim.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/color-v11.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/color-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/color-v23.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/color-v23.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/color.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/color.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi-v17.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-ldrtl-hdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi-v17.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-ldrtl-mdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-ldrtl-xhdpi-v17.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-ldrtl-xhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxhdpi-v17.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxxhdpi-v17.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-ldrtl-xxxhdpi-v17.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-v21.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-v23.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable-xxxhdpi-v4.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/debug/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-af.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-af.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-am.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-am.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ar.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ar.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-az-rAZ.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-az-rAZ.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-b+sr+Latn.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-b+sr+Latn.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-be-rBY.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-be-rBY.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-bg.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-bg.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-bn-rBD.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-bn-rBD.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-bs-rBA.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-bs-rBA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ca.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ca.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-cs.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-cs.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-da.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-da.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-de.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-de.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-el.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-el.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-en-rAU.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-en-rAU.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-en-rGB.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-en-rGB.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-en-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-en-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-es-rUS.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-es-rUS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-es.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-es.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-et-rEE.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-et-rEE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-eu-rES.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-eu-rES.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-fa.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-fa.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-fi.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-fi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-fr-rCA.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-fr-rCA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-fr.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-fr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-gl-rES.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-gl-rES.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-gu-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-gu-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-h720dp-v13.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-h720dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-hdpi-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-hi.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-hi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-hr.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-hr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-hu.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-hu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-hy-rAM.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-hy-rAM.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-in.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-in.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-is-rIS.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-is-rIS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-it.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-it.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-iw.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-iw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ja.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ja.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ka-rGE.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ka-rGE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-kk-rKZ.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-kk-rKZ.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-km-rKH.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-km-rKH.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-kn-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-kn-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ko.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ko.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ky-rKG.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ky-rKG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-land.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-land.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-large-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-large-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ldltr-v21.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ldltr-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-lo-rLA.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-lo-rLA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-lt.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-lt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-lv.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-lv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-mk-rMK.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-mk-rMK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ml-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ml-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-mn-rMN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-mn-rMN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-mr-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-mr-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ms-rMY.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ms-rMY.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-my-rMM.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-my-rMM.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-nb.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-nb.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ne-rNP.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ne-rNP.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-night-v8.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-night-v8.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-nl.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-nl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-pa-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-pa-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-pl.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-pl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-port.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-port.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-pt-rBR.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-pt-rBR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-pt-rPT.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-pt-rPT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-pt.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-pt.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ro.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ro.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ru.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ru.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-si-rLK.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-si-rLK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-sk.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-sk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-sl.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-sl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-sq-rAL.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-sq-rAL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-sr.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-sr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-sv.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-sv.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-sw.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-sw.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-sw600dp-v13.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-sw600dp-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ta-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ta-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-te-rIN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-te-rIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-th.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-th.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-tl.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-tl.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-tr.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-tr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-uk.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-uk.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ur-rPK.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-ur-rPK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-uz-rUZ.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-uz-rUZ.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-v11.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-v12.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-v12.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-v13.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-v13.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-v14.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-v14.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-v17.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-v18.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-v18.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-v21.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-v22.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-v22.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-v23.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-vi.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-vi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-xlarge-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-xlarge-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-zh-rCN.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-zh-rCN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-zh-rHK.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-zh-rHK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-zh-rTW.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-zh-rTW.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-zu.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values-zu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/anim.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/anim.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/color-v11.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/color-v11.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/color-v23.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/color-v23.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/color.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/color.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-ldrtl-hdpi-v17.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-ldrtl-hdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-ldrtl-mdpi-v17.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-ldrtl-mdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-ldrtl-xhdpi-v17.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-ldrtl-xhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-ldrtl-xxhdpi-v17.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-ldrtl-xxhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-ldrtl-xxxhdpi-v17.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-ldrtl-xxxhdpi-v17.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-mdpi-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-mdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-v21.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-v21.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-v23.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-v23.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-xxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-xxxhdpi-v4.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable-xxxhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/drawable.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/layout.json" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/blame/res/release/single/layout.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/bundles/debug/R.txt" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/bundles/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/incremental/mergeReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/incremental/mergeReleaseResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/incremental/packageDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/incremental/packageReleaseResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/build/intermediates/symbols/androidTest/debug/R.txt" afterPath="$PROJECT_DIR$/sliderize/build/intermediates/symbols/androidTest/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/sliderize.iml" afterPath="$PROJECT_DIR$/sliderize/sliderize.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/src/main/java/com/artchemylab/sliderize/Sliderize.java" afterPath="$PROJECT_DIR$/sliderize/src/main/java/com/artchemylab/sliderize/Sliderize.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sliderize/src/main/java/com/artchemylab/sliderize/SliderizeAdapter.java" afterPath="$PROJECT_DIR$/sliderize/src/main/java/com/artchemylab/sliderize/SliderizeAdapter.java" />
     </list>
     <ignored path="Sliderize-Sample.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -692,11 +103,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/approveit/demolib/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.62134254">
+              <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -708,10 +119,42 @@
         <entry file="file://$PROJECT_DIR$/sliderize/src/main/java/com/artchemylab/sliderize/Sliderize.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="122" column="68" selection-start-line="122" selection-start-column="68" selection-end-line="122" selection-end-column="68" />
+              <caret line="191" column="53" selection-start-line="191" selection-start-column="53" selection-end-line="191" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#onPageScrollStateChanged#0;class#7704:9730" expanded="false" />
+                <element signature="e#5461#6392#0" expanded="true" />
+                <element signature="e#6391#6392#0" expanded="true" />
+                <element signature="method#onPageScrollStateChanged#0;class#9385:11411" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SliderizeScroller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sliderize/src/main/java/com/artchemylab/sliderize/SliderizeScroller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="21" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#770#771#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SliderizeViewPager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sliderize/src/main/java/com/artchemylab/sliderize/SliderizeViewPager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -730,24 +173,31 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sliderize/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.333334">
-              <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            <state vertical-scroll-proportion="-8.148149">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59090906">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -2809,7 +2259,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="5887578072465" />
+        <entry key="$PROJECT_DIR$" value="5887628432538" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -3234,10 +2684,12 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/sliderize/src/main/java/com/artchemylab/sliderize/SliderizeAdapter.java" />
-        <option value="$PROJECT_DIR$/sliderize/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/approveit/demolib/MainActivity.java" />
+        <option value="$PROJECT_DIR$/sliderize/build.gradle" />
+        <option value="$PROJECT_DIR$/sliderize/src/main/java/com/artchemylab/sliderize/SliderizeViewPager.java" />
+        <option value="$PROJECT_DIR$/sliderize/src/main/java/com/artchemylab/sliderize/SliderizeScroller.java" />
         <option value="$PROJECT_DIR$/sliderize/src/main/java/com/artchemylab/sliderize/Sliderize.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/approveit/demolib/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -3272,29 +2724,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sliderize-Sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sliderize-Sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sliderize-Sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3316,6 +2745,10 @@
               <option name="myItemId" value="sliderize" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -3323,17 +2756,64 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="sliderize" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sliderize" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sliderize-Sample" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sliderize" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sliderize-Sample" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sliderize-Sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sliderize-Sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sliderize-Sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../FocusOn/Finalit v1.0" />
     <property name="device.picker.selection" value="9c8d24c" />
@@ -3620,8 +3100,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3629,7 +3109,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32929516" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929516" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3692,6 +3172,63 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/approveit/demolib/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sliderize/src/main/java/com/artchemylab/sliderize/Sliderize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5461#6392#0" expanded="true" />
+            <element signature="e#6391#6392#0" expanded="true" />
+            <element signature="method#onPageScrollStateChanged#0;class#9385:11411" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sliderize/src/main/java/com/artchemylab/sliderize/SliderizeAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sliderize/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/approveit/demolib/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/approveit/demolib/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -3705,7 +3242,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#onPageScrollStateChanged#0;class#7704:9730" expanded="false" />
+            <element signature="e#5461#6392#0" expanded="true" />
+            <element signature="e#6391#6392#0" expanded="true" />
+            <element signature="method#onPageScrollStateChanged#0;class#9385:11411" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3734,7 +3273,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#onPageScrollStateChanged#0;class#7704:9730" expanded="false" />
+            <element signature="e#5461#6392#0" expanded="true" />
+            <element signature="e#6391#6392#0" expanded="true" />
+            <element signature="method#onPageScrollStateChanged#0;class#9385:11411" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3763,7 +3304,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#onPageScrollStateChanged#0;class#7704:9730" expanded="false" />
+            <element signature="e#5461#6392#0" expanded="true" />
+            <element signature="e#6391#6392#0" expanded="true" />
+            <element signature="method#onPageScrollStateChanged#0;class#9385:11411" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3792,7 +3335,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#onPageScrollStateChanged#0;class#7704:9730" expanded="false" />
+            <element signature="e#5461#6392#0" expanded="true" />
+            <element signature="e#6391#6392#0" expanded="true" />
+            <element signature="method#onPageScrollStateChanged#0;class#9385:11411" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3819,22 +3364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-v4/24.1.1/1011f8c906a5f8f53eef8fd669fc3c2afebe04f7/support-v4-24.1.1-sources.jar!/android/support/v4/view/ViewPager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.724138">
-          <caret line="308" column="43" selection-start-line="308" selection-start-column="26" selection-end-line="308" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sliderize/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.333334">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sliderize/src/main/java/com/artchemylab/sliderize/SliderizeAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3843,12 +3372,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/approveit/demolib/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="39" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/support-v4/24.1.1/1011f8c906a5f8f53eef8fd669fc3c2afebe04f7/support-v4-24.1.1-sources.jar!/android/support/v4/view/ViewPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="760" column="16" selection-start-line="760" selection-start-column="16" selection-end-line="760" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sliderize/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.148149">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sliderize/src/main/java/com/artchemylab/sliderize/SliderizeViewPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sliderize/src/main/java/com/artchemylab/sliderize/SliderizeScroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3856,19 +3425,23 @@
     <entry file="file://$PROJECT_DIR$/sliderize/src/main/java/com/artchemylab/sliderize/Sliderize.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="122" column="68" selection-start-line="122" selection-start-column="68" selection-end-line="122" selection-end-column="68" />
+          <caret line="191" column="53" selection-start-line="191" selection-start-column="53" selection-end-line="191" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#onPageScrollStateChanged#0;class#7704:9730" expanded="false" />
+            <element signature="e#5461#6392#0" expanded="true" />
+            <element signature="e#6391#6392#0" expanded="true" />
+            <element signature="method#onPageScrollStateChanged#0;class#9385:11411" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/approveit/demolib/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59090906">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.62134254">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

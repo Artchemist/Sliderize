@@ -32,12 +32,12 @@
         "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
         "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png",
         "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png",

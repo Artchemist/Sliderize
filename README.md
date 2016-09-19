@@ -1,12 +1,12 @@
 # Sliderize
-Early access of a slider library for android
+Beta access of a slider library for android
 
 Sliderize is a Android library designed to provide fast and easy implementation of a slider type effect.
 You can pass the array of images you wish and the layout you want your slider to be in and you got yourself a running slider.
 
 There are different types of sliding effects and/or transition effects. 
 
-<i>*At this stage the library is realy basic. More will be available with each update. Let me know if you find any bugs.</i>
+<i>*At this stage the library is complete. More features will be added if requested. Report any bad behaviour or bugs.</i>
 <hr/>
 #Features
 <ul>
@@ -16,24 +16,30 @@ There are different types of sliding effects and/or transition effects.
   <li>Easily integrate it anywhere in your app</li>
 </ul>
 <hr/>
-#Upcoming Features
+#Details
 <ul>
-  <li>Three type of sliding. (All Added)
+  <li>Three types of sliding.
     <ul>
-      <li>End to End sliding <i>(Added)</i></li>
-      <li>Repeat Start to/from Finish Sliding <i>(Added)</i></li>
-      <li>Infinite Sliding <i>(Added)</i></li>
+      <li>End to End sliding</li>
+      <li>Repeat Start to/from Finish Sliding</li>
+      <li>Infinite Sliding</li>
     </ul>
   </li>
   <li>Two Transition Styles
     <ul>
-      <li>Default Sliding Effect <i>(Added)</i></li>
-      <li>Fade in/out Effect <i>(Added)</i></li>
+      <li>Default Sliding Effect</li>
+      <li>Fade in/out Effect</li>
     </ul>
   </li>
-  <li>Change transition time between slides <i>(Added)</i></li>
+  <li>Change transition time between slides</li>
   <li>Automated sliding with Timer</li>
   <li>Easier and simple functionality and integration out of the box.</li>
+</ul>
+<hr/>
+#Upcoming Features
+<ul>
+  <li>Get current Item</li>
+  <li>Implement a way so the library doesn't have to use Picasso.</li>
 </ul>
 <hr/>
 #Tutorial

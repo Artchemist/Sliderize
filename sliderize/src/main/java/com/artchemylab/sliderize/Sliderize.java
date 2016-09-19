@@ -5,6 +5,7 @@ import android.os.Build;
 import android.os.Handler;
 import android.support.v4.view.ViewPager;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
@@ -13,6 +14,7 @@ import android.widget.RelativeLayout;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Timer;
+import java.util.TimerTask;
 
 /**
  * Sliderize: Slider Library
@@ -58,10 +60,10 @@ public class Sliderize {
      * Timer
      */
     private boolean enableTimer = true;
-    private Timer timer = null;
     private Handler hanlder = null;
     private Runnable updater = null;
     private long timerDuration = 5000;
+    private boolean reverseEndSlider = false;
 
     /**
      * Tag for Logs
@@ -100,6 +102,7 @@ public class Sliderize {
 
     /**
      * default Constructor
+     *
      * @param ctx Context: get the context when it is called
      */
     public Sliderize(Context ctx) {
@@ -109,6 +112,7 @@ public class Sliderize {
 
     /**
      * Pass to the slider the array of images you want to be displayed
+     *
      * @param data List<String>: (url for images)
      * @return itself.
      */
@@ -120,6 +124,7 @@ public class Sliderize {
 
     /**
      * Pass to the slider the view it will use
+     *
      * @param sliderView RelativeLayout
      * @return itself.
      */
@@ -130,6 +135,7 @@ public class Sliderize {
 
     /**
      * After called the required methods for your types and styles call initiate to create the slider
+     *
      * @return returns true if the was no problem with the initiate.
      */
     public boolean initiate() {
@@ -147,15 +153,12 @@ public class Sliderize {
         } else if (imagesSize > 1 && slideType == TYPE_RESTART_SLIDE) {
             Log.i(TAG, "size > 1 and Type = Restart Slide");
             currentItem = 1;
-            enableTimer = true;
         } else if (imagesSize > 1 && slideType == TYPE_END_SLIDE) {
             Log.i(TAG, "size > 1 and Type = End Slide");
             currentItem = 0;
-            enableTimer = true;
         } else if (imagesSize > 1 && slideType == TYPE_INFINITE_SLIDE) {
             Log.i(TAG, "size > 1 and Type = Infinite Slide");
             currentItem = 1;
-            enableTimer = true;
         }
 
         if (ctx != null && viewPager != null) {
@@ -196,7 +199,7 @@ public class Sliderize {
         return false;
     }
 
-    private void enableFadeEffect(){
+    private void enableFadeEffect() {
         if (viewPager != null) {
             viewPager.setPageTransformer(false, new ViewPager.PageTransformer() {
                 @Override
@@ -219,7 +222,7 @@ public class Sliderize {
         }
     }
 
-    public Sliderize changeTransitionTime (int duration) {
+    public Sliderize changeTransitionTime(int duration) {
         this.slideDuration = duration;
         return this;
     }
@@ -231,6 +234,16 @@ public class Sliderize {
         viewPager = new SliderizeViewPager(ctx);
         sliderView.addView(viewPager);
         viewPager.setOffscreenPageLimit(loadedPageLimit);
+        viewPager.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View v, MotionEvent event) {
+                if (enableTimer) {
+                    hanlder.removeCallbacks(updater);
+                    hanlder.postDelayed(updater, timerDuration);
+                }
+                return false;
+            }
+        });
     }
 
     private void addDots() {
@@ -292,6 +305,9 @@ public class Sliderize {
             viewPager.setOverScrollMode(ViewPager.OVER_SCROLL_NEVER);
 
             enableInfiniteType();
+            if (enableTimer) {
+                startAutoPlay();
+            }
         }
     }
 
@@ -304,7 +320,7 @@ public class Sliderize {
                 @Override
                 public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
                     if (positionOffset > 0.99 || positionOffset < 0.001) {
-                        if (viewPager.getCurrentItem() == 0 || viewPager.getCurrentItem() == data.size() -1)
+                        if (viewPager.getCurrentItem() == 0 || viewPager.getCurrentItem() == data.size() - 1)
                             viewPager.setCurrentItem(currentItem, false);
                     }
                 }
@@ -340,8 +356,8 @@ public class Sliderize {
                 public void onPageScrollStateChanged(int state) {
 
                     //if (state == ViewPager.SCROLL_STATE_IDLE) {
-                        //if (viewPager.getCurrentItem() == 0 || viewPager.getCurrentItem() == data.size() -1)
-                            //viewPager.setCurrentItem(currentItem, false);
+                    //if (viewPager.getCurrentItem() == 0 || viewPager.getCurrentItem() == data.size() -1)
+                    //viewPager.setCurrentItem(currentItem, false);
                     //} // /scroll state idle
                 }
             });
@@ -362,6 +378,10 @@ public class Sliderize {
         viewPager.setCurrentItem(currentItem);
 
         enableEndType();
+
+        if (enableTimer) {
+            startAutoPlay();
+        }
 
     }
 
@@ -410,36 +430,6 @@ public class Sliderize {
             viewPager.setAdapter(sliderizeAdapter);
             viewPager.setCurrentItem(currentItem);
 
-//            if (enableTimer) {
-//                if (timer == null)
-//                    timer = new Timer();
-//                if (hanlder == null)
-//                    hanlder = new Handler();
-//
-//                updater = new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        if (currentItem >= 1 && currentItem <= imagesSize - 2) {
-//                            viewPager.setCurrentItem(currentItem++, true);
-//                        } else if (currentItem > imagesSize - 2) {
-//                            currentItem = 1;
-//                            viewPager.setCurrentItem(currentItem, false);
-//                        } else if (currentItem < 1) {
-//                            currentItem = imagesSize - 2;
-//                            viewPager.setCurrentItem(currentItem, true);
-//                        }
-//                    }
-//                };
-//
-//                timer.schedule(new TimerTask() {
-//                    @Override
-//                    public void run() {
-//                        hanlder.post(updater);
-//                    }
-//                }, timerDuration);
-//
-//            }
-
         } else if (imagesSize > 1) {
             if (slideType == TYPE_RESTART_SLIDE) {
                 data.add(0, "first");
@@ -454,6 +444,10 @@ public class Sliderize {
             viewPager.setCurrentItem(currentItem);
 
             enableRestartType();
+            if (enableTimer) {
+                startAutoPlay();
+            }
+
         }
 
     }
@@ -506,12 +500,72 @@ public class Sliderize {
         }
     }
 
+    private void startAutoPlay() {
+        Log.i("Timer", "enabled");
+        if (hanlder == null)
+            hanlder = new Handler();
+
+        updater = new Runnable() {
+            @Override
+            public void run() {
+                if (currentItem % 2 == 0)
+                    Log.i("Timer", "...updater running...");
+                if (slideType == TYPE_RESTART_SLIDE) {
+                    if (currentItem >= 1 && currentItem <= data.size() - 2) {
+                        viewPager.setCurrentItem(currentItem++, true);
+                    } else if (currentItem > data.size() - 2) {
+                        currentItem = 1;
+                        viewPager.setCurrentItem(currentItem, true);
+                    } else if (currentItem < 1) {
+                        currentItem = data.size() - 2;
+                        viewPager.setCurrentItem(currentItem, true);
+                    }
+                } else if (slideType == TYPE_INFINITE_SLIDE) {
+                    if (currentItem >= 0 && currentItem <= data.size() - 1) {
+                        viewPager.setCurrentItem(currentItem++, true);
+                    }
+                } else if (slideType == TYPE_END_SLIDE) {
+                    if (reverseEndSlider) {
+                        if (currentItem >= 0 && currentItem <= data.size() -1) {
+                            viewPager.setCurrentItem(currentItem--, true);
+                            if (currentItem == 0) {
+                                reverseEndSlider = false;
+                            }
+                        }
+                    } else {
+                        if (currentItem >= 0 && currentItem <= data.size() -1) {
+                            viewPager.setCurrentItem(currentItem++, true);
+                            if (currentItem == data.size() -1) {
+                                reverseEndSlider = true;
+                            }
+                        }
+                    }
+
+                }
+                hanlder.postDelayed(this, timerDuration);
+            }
+        };
+
+        hanlder.postDelayed(updater, timerDuration);
+    }
+
+    /**
+     * Enable or disable slider
+     * @param active boolean: default false
+     * @return itself.
+     */
+    public Sliderize setTimerActive (Boolean active) {
+        enableTimer = active;
+        return this;
+    }
+
     /**
      * Change the default transition of how slides slide.
+     *
      * @param effectStyle int: default Sliderize.EFFECT_FADE_SLIDE
      * @return itself.
      */
-    public Sliderize changeEffectSlide (int effectStyle) {
+    public Sliderize changeEffectSlide(int effectStyle) {
         this.effectStyle = effectStyle;
         return this;
     }
@@ -683,8 +737,8 @@ public class Sliderize {
     }
 
     private void clearTimer() {
-        if (timer != null)
-            timer.cancel();
+        if (hanlder != null && updater != null)
+            hanlder.removeCallbacks(updater);
         updater = null;
         hanlder = null;
     }

@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
          * sliderize.initiate();
          * and you got the default slider
          */
-        sliderize = new Sliderize(this).with(data).to(sliderView).changeLoadedPageLimit(5).setSlideType(Sliderize.TYPE_INFINITE_SLIDE);
+        sliderize = new Sliderize(this).with(data).to(sliderView).changeLoadedPageLimit(10).setSlideType(Sliderize.TYPE_END_SLIDE).setTimerDuration(1500).setTimerActive(false);
         sliderize.initiate();
     }
 

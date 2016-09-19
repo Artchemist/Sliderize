@@ -44,12 +44,12 @@
         "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\res\\merged\\release\\color\\abc_tint_default.xml",
-        "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\color\\abc_tint_default.xml"
-    },
-    {
         "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\res\\merged\\release\\color\\abc_tint_seek_thumb.xml",
         "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\res\\merged\\release\\color\\abc_tint_default.xml",
+        "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\color\\abc_tint_default.xml"
     },
     {
         "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\res\\merged\\release\\color\\abc_search_url_text.xml",

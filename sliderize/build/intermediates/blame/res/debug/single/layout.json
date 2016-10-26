@@ -1,11 +1,11 @@
 [
     {
-        "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
         "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "F:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\sliderize\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",

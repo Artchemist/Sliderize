@@ -14,6 +14,7 @@ import com.squareup.picasso.Picasso;
 import java.util.List;
 
 /**
+ *
  * Created by Artchemist on 8/10/2016.
  */
 public class SliderizeAdapter extends PagerAdapter {
@@ -49,7 +50,7 @@ public class SliderizeAdapter extends PagerAdapter {
          * for end to end type and infinite type we need picasso to run run for all items inside data
          */
         if (!data.get(position).equals("first") && !data.get(position).equals("last"))
-            Picasso.with(ctx).load(data.get(position)).error(android.R.drawable.btn_star).into(image);
+            Picasso.with(ctx).load(data.get(position)).into(image);
 
         container.addView(v);
 

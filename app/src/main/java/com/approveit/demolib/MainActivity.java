@@ -2,8 +2,10 @@ package com.approveit.demolib;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.RelativeLayout;
 
+import com.artchemylab.sliderize.OnSlideEventListener;
 import com.artchemylab.sliderize.Sliderize;
 
 import java.util.ArrayList;
@@ -31,14 +33,13 @@ public class MainActivity extends AppCompatActivity {
         data.add("http://www.johnboulmetis.com/wp-content/uploads/2016/04/dwmatio_01.jpg");
         data.add("http://www.johnboulmetis.com/wp-content/uploads/2016/04/digital_painting__hourse_archer_by_johnboul-d8wftgs.jpg");
 
-
         /**
          * You only need these two lines to run the slider effect
          * new Sliderize(context).with(your array list with images).to(your relative layout);
          * sliderize.initiate();
          * and you got the default slider
          */
-        sliderize = new Sliderize(this).with(data).to(sliderView).changeLoadedPageLimit(10).setSlideType(Sliderize.TYPE_END_SLIDE).setTimerDuration(1500).setTimerActive(false);
+        sliderize = new Sliderize(this).with(data).to(sliderView).setSlideType(Sliderize.TYPE_END_SLIDE).changeTransitionTime(500).setTimerActive(false);
         sliderize.initiate();
     }
 

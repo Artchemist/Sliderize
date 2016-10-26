@@ -15,19 +15,9 @@ ADDED from F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\src\main
 		INJECTED from F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\src\main\AndroidManifest.xml
 application
 ADDED from F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\src\main\AndroidManifest.xml:5:5-18:19
-MERGED from [com.android.support:appcompat-v7:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
 MERGED from [Sliderize-Sample:sliderize:unspecified] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\Sliderize-Sample\sliderize\unspecified\AndroidManifest.xml:13:5-17:19
 MERGED from [com.android.support:appcompat-v7:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-vector-drawable:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:support-v4:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
 	android:label
@@ -56,19 +46,9 @@ ADDED from F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\src\main
 		ADDED from F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\src\main\AndroidManifest.xml:15:27-74
 uses-sdk
 INJECTED from F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-vector-drawable:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
 MERGED from [Sliderize-Sample:sliderize:unspecified] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\Sliderize-Sample\sliderize\unspecified\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-vector-drawable:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
 MERGED from [com.android.support:support-v4:24.1.1] F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
 	tools:overrideLibrary

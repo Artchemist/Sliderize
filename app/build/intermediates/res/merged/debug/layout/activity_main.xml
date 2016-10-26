@@ -12,16 +12,6 @@
     <RelativeLayout
         android:id="@+id/sliderView"
         android:layout_width="match_parent"
-        android:layout_height="200dp" />
-
-    <TextView
-        android:id="@+id/textview"
-        android:layout_below="@+id/sliderView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#000"
-        android:padding="10dp"
-        android:text="aofis aifms aosifmafo afosmapfos map fomapsf mapo sfmapsofm apfm apsfm apfom ao"
-        android:textColor="#fff"/>
+        android:layout_height="150dp" />
 
 </RelativeLayout>

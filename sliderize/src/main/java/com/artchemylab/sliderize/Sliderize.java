@@ -13,8 +13,6 @@ import android.widget.RelativeLayout;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
 
 /**
  * Sliderize: Slider Library
@@ -23,7 +21,6 @@ import java.util.TimerTask;
  * Created by Artchemist on 8/10/2016.
  */
 public class Sliderize {
-
 
     public static final int TYPE_RESTART_SLIDE = 1;
     public static final int TYPE_END_SLIDE = 2;
@@ -99,6 +96,8 @@ public class Sliderize {
     public static final int EFFECT_FADE_SLIDE = 2;
 
     private int effectStyle = EFFECT_FADE_SLIDE;
+
+    private OnSlideEventListener onSlideEventListener;
 
     /**
      * default Constructor
@@ -199,6 +198,15 @@ public class Sliderize {
         return false;
     }
 
+    public Sliderize enableSlideEventListener (OnSlideEventListener listener) {
+        onSlideEventListener = listener;
+        return this;
+    }
+
+    /**
+     * Enable Fade Effect
+     * Transition between slides
+     */
     private void enableFadeEffect() {
         if (viewPager != null) {
             viewPager.setPageTransformer(false, new ViewPager.PageTransformer() {
@@ -222,6 +230,12 @@ public class Sliderize {
         }
     }
 
+    /**
+     * Time that takes between each slide to animate to the next one.
+     *
+     * @param duration int: milliseconds : Default 500 (half a second)
+     * @return itself.
+     */
     public Sliderize changeTransitionTime(int duration) {
         this.slideDuration = duration;
         return this;
@@ -235,8 +249,23 @@ public class Sliderize {
         sliderView.addView(viewPager);
         viewPager.setOffscreenPageLimit(loadedPageLimit);
         viewPager.setOnTouchListener(new View.OnTouchListener() {
+            private float pointX;
+            private float pointY;
+            private int tolerance = 1;
+
             @Override
             public boolean onTouch(View v, MotionEvent event) {
+                if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                    pointX = event.getX();
+                    pointY = event.getY();
+                } else if (event.getAction() == MotionEvent.ACTION_UP) {
+                    boolean sameX = pointX + tolerance > event.getX() && pointX - tolerance < event.getX();
+                    boolean sameY = pointY + tolerance > event.getY() && pointY - tolerance < event.getY();
+                    if(sameX && sameY){
+                        onSlideEventListener.onSlideClicked(getCurrentSlide());
+                        return true;
+                    }
+                }
                 if (enableTimer) {
                     hanlder.removeCallbacks(updater);
                     hanlder.postDelayed(updater, timerDuration);
@@ -246,6 +275,9 @@ public class Sliderize {
         });
     }
 
+    /**
+     * Add Dot system to the slider so it will display at which slide we currently are
+     */
     private void addDots() {
         if (displayDots) {
             dotsLayout = new LinearLayout(ctx);
@@ -350,6 +382,11 @@ public class Sliderize {
                             }
                         }
                     }
+
+                    if (onSlideEventListener != null) {
+                        onSlideEventListener.onSlideCompleted(getCurrentSlide());
+                    }
+
                 }
 
                 @Override
@@ -385,6 +422,11 @@ public class Sliderize {
 
     }
 
+    /**
+     * Enable End to End Type
+     * Default Functionality of viewpager
+     */
+    private float test = 1.0f;
     private void enableEndType() {
         if (viewPager != null) {
             viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
@@ -404,6 +446,10 @@ public class Sliderize {
                             dots.get(currentItem).setBackgroundDrawable(ctx.getResources().getDrawable(activeDotDrawable));
                         }
                     }
+
+                    if (onSlideEventListener != null)
+                        onSlideEventListener.onSlideCompleted(currentItem);
+
                 }
 
                 @Override
@@ -490,6 +536,11 @@ public class Sliderize {
                             }
                         }
                     }
+
+                    if (onSlideEventListener != null) {
+                            onSlideEventListener.onSlideCompleted(getCurrentSlide());
+                    }
+
                 }
 
                 @Override
@@ -497,6 +548,24 @@ public class Sliderize {
 
                 }
             });
+        }
+    }
+
+    /**
+     * Get Current Slide
+     * @return
+     */
+    private int getCurrentSlide () {
+        if (slideType == TYPE_END_SLIDE) {
+            return currentItem;
+        } else if (slideType == TYPE_INFINITE_SLIDE || slideType == TYPE_RESTART_SLIDE) {
+            if (currentItem - 1 < 0) {
+                return currentItem;
+            } else {
+                return currentItem - 1;
+            }
+        } else {
+            return 0;
         }
     }
 
@@ -526,16 +595,16 @@ public class Sliderize {
                     }
                 } else if (slideType == TYPE_END_SLIDE) {
                     if (reverseEndSlider) {
-                        if (currentItem >= 0 && currentItem <= data.size() -1) {
+                        if (currentItem >= 0 && currentItem <= data.size() - 1) {
                             viewPager.setCurrentItem(currentItem--, true);
                             if (currentItem == 0) {
                                 reverseEndSlider = false;
                             }
                         }
                     } else {
-                        if (currentItem >= 0 && currentItem <= data.size() -1) {
+                        if (currentItem >= 0 && currentItem <= data.size() - 1) {
                             viewPager.setCurrentItem(currentItem++, true);
-                            if (currentItem == data.size() -1) {
+                            if (currentItem == data.size() - 1) {
                                 reverseEndSlider = true;
                             }
                         }
@@ -551,10 +620,11 @@ public class Sliderize {
 
     /**
      * Enable or disable slider
+     *
      * @param active boolean: default false
      * @return itself.
      */
-    public Sliderize setTimerActive (Boolean active) {
+    public Sliderize setTimerActive(Boolean active) {
         enableTimer = active;
         return this;
     }
@@ -698,7 +768,6 @@ public class Sliderize {
         this.alwaysDisplayDots = alwaysDisplayDots;
         return this;
     }
-
 
     /**
      * Release all resources on Activity's on Destroy

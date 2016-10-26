@@ -3,8 +3,8 @@
     package="com.artchemylab.sliderize.test" >
 
     <uses-sdk
-        android:minSdkVersion="10"
-        android:targetSdkVersion="24" />
+        android:minSdkVersion="12"
+        android:targetSdkVersion="17" />
 
     <instrumentation
         android:name="android.test.InstrumentationTestRunner"

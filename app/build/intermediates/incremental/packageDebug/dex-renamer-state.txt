@@ -1,0 +1,7 @@
+#Thu Oct 27 11:59:43 EEST 2016
+base.0=F\:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5a00869b436e0ff216f2d235093c3e7eaa806df3
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=F\:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b2ae0fc014648e11e13856685836d28b289bdd68\\classes.dex
+base.1=F\:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b2ae0fc014648e11e13856685836d28b289bdd68
+file.0=F\:\\AndroidProjects\\Artchemist\\Libraries\\Sliderize-Sample\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_5a00869b436e0ff216f2d235093c3e7eaa806df3\\classes.dex

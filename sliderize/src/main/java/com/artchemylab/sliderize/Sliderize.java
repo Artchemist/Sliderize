@@ -37,6 +37,7 @@ public class Sliderize {
     private SliderizeViewPager viewPager;
     private List<String> data;
     private int slideDuration = 500;
+    private boolean disabledUserScroll = false;
 
     /**
      * Slider adapter
@@ -266,11 +267,15 @@ public class Sliderize {
                         return true;
                     }
                 }
-                if (enableTimer) {
-                    hanlder.removeCallbacks(updater);
-                    hanlder.postDelayed(updater, timerDuration);
+                if (!disabledUserScroll) {
+                    if (enableTimer) {
+                        hanlder.removeCallbacks(updater);
+                        hanlder.postDelayed(updater, timerDuration);
+                    }
+                    return false;
+                } else {
+                    return true;
                 }
-                return false;
             }
         });
     }
@@ -616,6 +621,16 @@ public class Sliderize {
         };
 
         hanlder.postDelayed(updater, timerDuration);
+    }
+
+    /**
+     * Not allow user to scroll (use it with timer to have autoplay)
+     * @param disabled Boolean: Default : False
+     * @return itself.
+     */
+    public Sliderize disableUserScroll (Boolean disabled) {
+        disabledUserScroll = disabled;
+        return this;
     }
 
     /**

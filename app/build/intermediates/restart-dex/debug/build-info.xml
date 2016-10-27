@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="22"
+    density="hdpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="1275804013834829"
+    token="-2025393596011001415"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="191" />
+    <task
+        name="instant-run-dex"
+        duration="498" />
+    <task
+        name="instant-run-transform"
+        duration="63" />
+    <task
+        name="verifier"
+        duration="2" />
+
+    <artifact
+        location="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        timestamp="1275622453435356"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="1275706999119528"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\builds\debug\1275706999119528\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="1275804013834829"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="F:\AndroidProjects\Artchemist\Libraries\Sliderize-Sample\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>
